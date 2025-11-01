@@ -1,18 +1,18 @@
-@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo:wght@300;400;500;700&display=swap');
 :root {
-    --color-primary: #dfefff;
-    --color-background: #0d1b2a;
-    --color-surface: #1b263b;
-    --color-surface-light: #2a3a4a;
-    --color-accent: #6bbcfb;
-    --color-accent-dark: #133b5c;
-    --color-text-muted: #a9c5e8;
-    --color-primary-light: #0d1b2a;
-    --color-background-light: #f2f9ff;
-    --color-surface-light-theme: #dceeff;
-    --color-surface-light-light: #c6dffc;
-    --color-accent-light: #00146b;
-    --color-accent-light-theme: #62b6f7;
+    --color-primary: #FFFFFF;
+    --color-background: #000000;
+    --color-surface: #000000;
+    --color-surface-light: #FFFFFF;
+    --color-accent: #000000;
+    --color-accent-dark: #000000;
+    --color-text-muted: #000000;
+    --color-primary-light: #000000;
+    --color-background-light: #FFFFFF;
+    --color-surface-light-theme: #FFFFFF;
+    --color-surface-light-light: #FFFFFF;
+    --color-accent-light: #FFFFFF;
+    --color-accent-light-theme: #FFFFFF;
     --space-xs: .5rem;
     --space-sm: 1rem;
     --space-md: 1.5rem;
@@ -34,8 +34,8 @@
     position: fixed;
     bottom: 2rem;
     right: 2rem;
-    background: #6bbcfb;
-    color: #133b5c;
+    background: #000000;
+    color: #000000;
     border: none;
     border-radius: 50%;
     width: 48px;
@@ -83,7 +83,7 @@ html {
 }
 
 body {
-    font-family: 'Ubuntu Sans Mono', monospace;
+    font-family: 'Archivo Medium', monospace;
     font-weight: 300;
     font-size: 1rem;
     line-height: 1.6;
@@ -296,7 +296,7 @@ a:hover {
     object-fit: cover;
     box-shadow: var(--shadow-md);
     transition: transform var(--transition-fast);
-    border: 2px solid #6bbcfb;
+    border: 2px solid #FFFFFF;
     box-shadow: 0 0 15px rgba(107, 188, 251, 0.5);
 }
 
